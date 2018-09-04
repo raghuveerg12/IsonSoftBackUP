@@ -1,0 +1,264 @@
+.App {
+  text-align: center;
+}
+
+.leftpane{
+  width: 69%;
+  height: 100%;
+  display: inline-block;
+  float: left;
+}
+
+.rightpane{
+  width: 30%;
+  height: 100%;
+  display: inline-block;
+  float: left;
+}
+
+.listOfPricesAndChanges{
+  width: 100%;
+  height: 10%;
+  display: inline-block;
+
+
+
+}
+
+.priceAndDepth{
+
+  width: 98%;
+  height: 45%;
+  display: inline-block;
+  margin-bottom: 5px;
+  border: 1px solid #CCC
+
+
+}
+.ordersAndHistory{
+  width: 98%;
+  height: 50%;
+  display: inline-block;
+  
+}
+
+.orders{
+  width: 49%;
+  height: 100%;
+  display: inline-block;
+  float: left;
+  border: 1px solid #CCC;
+  margin-right:2px;
+
+}
+
+.history{
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+  float: left;
+  border: 1px solid #CCC;
+  margin-left:2px;
+
+}
+
+.buyAndSell{
+    width:  100%;
+    height: 40%; 
+    border: 1px solid #CCC;
+
+}
+.markets{
+  padding: 0px, 50px,50px,0px;
+
+  width: 100%;
+  height: 10%;
+  text-align: left;
+
+}
+
+.bTCNETH{
+   width:  100%;
+    height: 50%;
+    border: 1px solid #CCC;
+
+}
+
+.linksforPricesAndChanges{
+  display: inline-block;
+
+}
+
+.etherenumHeading{
+  width: 20%;
+  font: 15px arial, sans-serif;
+   font-weight: bold;
+
+}
+.etherenumSubHeading{
+  font: 10px arial, sans-serif;
+   font-weight: bold;
+   text-align: right;
+   padding-right: 13px;
+
+}
+
+.priceChangeSubHeading{
+  font: 12px arial, sans-serif;
+   font-weight: bold;
+   text-align: center;
+   margin-top: 5px;
+
+}
+
+.priceChange{
+  width: 15%;
+  font-size: smaller;
+  font: 10px arial, sans-serif;
+  font-weight: lighter;
+
+}
+
+.PriceAndDepthButtons{
+  width: 50%;
+  background-color: #ccc;
+  height: 30px;
+  border-left:1px thin;
+  font: 15px arial, sans-serif;
+  font-weight: bold;
+
+
+}
+.buttonsDiv{
+
+  width: 100%;
+  height: 10%;
+}
+
+.ordersButton{
+
+    width: 33.3%;
+    height: 25px;
+    background-color: #ccc;
+    border-left:1px thin;
+    font: 12px arial, sans-serif;
+    font-weight: bold;
+
+}
+
+.historyButton{
+  width: 50%;
+    height: 25px;
+    background-color: #ccc;
+    border-left:1px thin;
+    font: 12px arial, sans-serif;
+    font-weight: bold;
+}
+
+.buyNSellTabs{
+    width: 33.3%;
+    height: 25px;
+    background-color: #ccc;
+    border-left:1px thin;
+    font: 12px arial, sans-serif;
+    font-weight: bold;
+
+}
+
+.buyNSellArea{
+  width: 49.3%;
+  display: inline-block;
+  float: left;
+  border: 1px solid #CCC;
+
+
+}
+
+.btcEthButton{
+    width: 50%;
+    height: 25px;
+    background-color: #ccc;
+    border-left:1px thin;
+    font: 12px arial, sans-serif;
+    font-weight: bold;
+
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  font-size: xx-small;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+
+label {
+  font-size:small;
+  float: left;
+  text-align:right;
+  margin-right: 10px;
+  width:35px;
+}
+span {
+     margin-top:10px;
+    display: block;
+    overflow: hidden;
+    padding: 0 4px 0 6px;
+    margin-bottom:5px;
+}
+.inputPriceAmount {
+  width: 80px;
+  background-color: #C0C0C0;
+  border: none;
+}
+
+.inputPriceAmount2{
+  width: 30px;
+  background-color: #C0C0C0;
+  border: none;
+  margin-left: 2px;
+}
+
+.inputTotal{
+width: 80px;
+  background-color: white;
+  border: none;
+
+}
+.inputTotal2{
+width: 30px;
+  background-color: white;
+  border: none;
+
+}
+
+.buttonSell{
+
+  margin-top:15px;
+  margin-bottom: 5px;
+  margin-left:7px; 
+  width: 170px; 
+  height: 27px; 
+  background-color: #CCCC00; 
+  color: white;
+  padding: 2px;
+}
+
+.buttonBuy{
+
+
+  margin-top:15px;
+  margin-left:7px;  
+  margin-bottom: 5px;
+  width: 170px; 
+  height: 27px;  
+  background-color: #800080; 
+  color: white;
+  padding: 2px
+}
